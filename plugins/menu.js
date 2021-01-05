@@ -1,7 +1,7 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   conn.reply(m.chat, `
-NFQ BOT 🤖
-Rec: ~Drawl Nag
+🤖VNECK BOT🤖
+
 
 ➸ Prefix:  *「 ${_p} 」*
 ➸ Status: *「 Online 」*
@@ -46,17 +46,7 @@ Jangan Lupa Scan QR
 *「 Advanced 」*
 > return m 'javascript eval' + m.sender
 
-=======*「 INFO 」*=======
-Coded using *Vim* on Android \\w Termux
-by *@Nurutomo*
-Github: 
-https://github.com/Arya274/Arya-Bot
 
-YouTube: 
-https://www.youtube.com/c/DrawlNag
-
-OwNer:
-*Wa.me/6288235435804*
 ==================
 `.trim(), m)
 }
